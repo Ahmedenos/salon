@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="احجز موعدك مع صالونك دون الحاجة الي التنقل من مكانك"
+    />
+    <meta name="keywords" content="saloni.ma" />
+    <title>Saloni.ma</title>
+    <link rel="shortcut icon" href="./images/ICONE 1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Start navbar -->
+    <nav>
+      <div class="container dashboard">
+        <div class="logo">
+          <a href="index.html"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <div>
+          <a href="#" class="log-out">Log Out</a>
+          <div class="alerts">
+            <i class="fa-solid fa-bell"></i>
+            <ul>
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <div class="alert error">error...</div>
+    <div class="alert success">success...</div>
+
+    <main>
+      <!-- start sidebar -->
+      <aside>
+        <img src="./images/profile.png" class="level_1" alt="img" />
+        <ul>
+          <li>
+            <a href="dashboard.html">
+              <i class="fa-solid fa-house"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="Reservations.html">
+              <i class="fa-regular fa-calendar-days"></i>
+              <span
+                >Reservations
+                <div class="count">5</div>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="Salon.html">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <span>Salon</span>
+            </a>
+          </li>
+          <li>
+            <a href="Users.html">
+              <i class="fa-solid fa-users"></i>
+              <span>Users</span>
+            </a>
+          </li>
+          <li>
+            <a href="Copouns.html">
+              <i class="fa-solid fa-gift"></i>
+              <span>Copouns</span>
+            </a>
+          </li>
+          <li>
+            <a href="Guides.html">
+              <i class="fa-solid fa-clapperboard"></i>
+              <span>Guides</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="Settings.html">
+              <i class="fa-solid fa-gears"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+        </ul>
+        <div class="support">
+          <a href="#">
+            <i class="fa-solid fa-user"></i>
+            <span>Support</span>
+          </a>
+        </div>
+      </aside>
+      <!-- end sidebar -->
+
+      <!-- start content -->
+      <div class="content setting">
+        <div class="personal-image">
+          <img src="images/profile.png" alt="profile" />
+          <form action="">
+            <input type="file" />
+            <button type="submit" class="btn" >submit</button>
+          </form>
+        </div>
+
+        <h3 class="title">Information Personaml:</h3>
+
+        <form action="" class="global-form">
+          <div>
+            <div>
+              <label for="f_name">First Name: </label>
+              <input type="text" id="f_name" name="f_name" />
+            </div>
+            <div>
+              <label for="l_name">Last Name: </label>
+              <input type="text" id="l_name" name="l_name" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for="phone">Phone: </label>
+              <input type="tel" name="phone" id="phone" />
+            </div>
+            <div>
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" />
+            </div>
+          </div>
+          <div class="btns">
+            <button type="submit" class="btn">Apply Copon</button>
+            <!-- =================================this is the Test btn=================  -->
+            <button type="reset" class="btn" id="btn-image">Reset</button> 
+            <!-- =================================this is the Test btn=================  -->
+          </div>
+        </form>
+
+        <h3 class="title">Information Personaml:</h3>
+
+        <form action="" class="global-form">
+          <div>
+            <div>
+              <label for="f_name">First Name: </label>
+              <input type="text" id="f_name" name="f_name" />
+            </div>
+            <div>
+              <label for="l_name">Last Name: </label>
+              <input type="text" id="l_name" name="l_name" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for="phone">Phone: </label>
+              <input type="tel" name="phone" id="phone" />
+            </div>
+            <div>
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for="description">Description: </label>
+              <textarea id="description"></textarea>
+            </div>
+          </div>
+          <div class="dowload">
+            Lorem ipsum dolor sit amet.
+            <div class="btn">
+              <span>Dowload</span>
+              <i class="fa-solid fa-download"></i>
+            </div>
+          </div>
+          <div class="upload">
+            Lorem, ipsum dolor sit amet consectetur. veritatis!
+            <div class="btn">
+              <span>Upload</span>
+              <i class="fa-solid fa-upload"></i>
+            </div>
+          </div>
+          <div class="btns" >
+            <button type="submit" class="btn">Apply Copon</button>
+            <button type="reset" class="btn" id="test">Reset</button>
+          </div>
+        </form>
+      </div>
+      <!-- end content -->
+    </main>
+<!-- ==============================Start Show Image  ================================== -->
+<div class="container-images">
+    <div class="my-image">
+      <img src="images/notifcation-img.png" alt="congratulation-img" width="90%" height="90%">
+      <a href="#test"><img src="images/img-icon.png" class="icon-exit" alt="exit-icon"></a>
+    </div>
+</div>
+<!-- ==============================End Show Image ===================================== -->
+
+
+
+
+
+
+
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/personal_image.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/image.js"></script>
+  </body>
+</html>
